@@ -10,11 +10,11 @@ yum_package "nginx" do
 action :install
 end
 
-yum_package "php5-fpm" do
+yum_package "php-fpm" do
 action :install
 end
 
-yum_package "php5-mysql" do
+yum_package "php-mysql" do
 action :install
 end
 
