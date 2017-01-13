@@ -1,16 +1,16 @@
-apt_package "mysql-server-5.6" do
+yum_package "mysql-server-5.6" do
 action:install
 end
 
-apt_package "nginx-extras" do
+yum_package "nginx-extras" do
 action :install
 end
 
-apt_package "php5-fpm" do
+yum_package "php5-fpm" do
 action :install
 end
 
-apt_package "php5-mysql" do
+yum_package "php5-mysql" do
 action :install
 end
 
