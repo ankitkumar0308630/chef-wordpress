@@ -6,7 +6,7 @@ yum_package "epel-release" do
 action :install
 end
 
-yum_package "nginx-extras" do
+yum_package "nginx" do
 action :install
 end
 
