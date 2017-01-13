@@ -2,6 +2,10 @@ yum_package "mysql-server" do
 action:install
 end
 
+yum_package "epel-release" do
+action :install
+end
+
 yum_package "nginx-extras" do
 action :install
 end
