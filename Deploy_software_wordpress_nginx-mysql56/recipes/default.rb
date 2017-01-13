@@ -1,4 +1,4 @@
-yum_package "mysql-server-5.6" do
+yum_package "mysql-server" do
 action:install
 end
 
